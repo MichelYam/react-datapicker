@@ -5,19 +5,20 @@ import './App.css';
 
 
 function Input() {
-  const [date, setDate] = useState(new Date())
-  const [focus, setFocus] = useState(false)
+  // const [date, setDate] = useState(new Date())
+  // const [focus, setFocus] = useState(false)
 
-  const onFocus = () => {
-    setFocus(!focus)
-  }
-  console.log(focus)
+  // const onFocus = () => {
+  //   setFocus(!focus)
+  // }
+  // console.log(focus)
   return (
     <div className="App">
-      <input type="text" onFocus={onFocus} onBlur={onFocus} />
+      {/* <input type="text" onFocus={onFocus} onBlur={onFocus} />
       <div className={`${focus ? "up" : "no"}`}>
         <Calender />
-      </div>
+      </div> */}
+      <h1>Calendar</h1>
     </div>
   );
 }
