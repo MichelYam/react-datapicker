@@ -13,6 +13,8 @@ function Input() {
       <input type="text" onFocus={onFocus}  onBlur={onFocus} />
       <div className={`${focus ? "up" : "no"}`}>
         <p>Hi im am a calendar</p>
+        <p>Hi im am a calendar</p>
+        <p>Hi im am a calendar</p>
       </div>
     </div>
   );

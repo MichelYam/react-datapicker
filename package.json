@@ -2,8 +2,8 @@
   "name": "my-datapicker-react",
   "version": "0.1.1",
   "private": false,
-  "main": "dist/App.tsx",
-  "module": "dist/App.tsx",
+  "main": "dist/Input.tsx",
+  "module": "dist/Input.tsx",
   "files": [
     "dist",
     "README.md"
@@ -29,9 +29,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src--out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build-examples": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   },
   "eslintConfig": {
     "extends": [
