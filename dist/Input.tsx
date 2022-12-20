@@ -13,12 +13,12 @@ function Input() {
   }
   console.log(focus)
   return (
-    <div className="App">
-      <input type="text" onFocus={onFocus} onBlur={onFocus} />
+    <>
+      < input type="text" onFocus={onFocus} onBlur={onFocus} />
       <div className={`${focus ? "up" : "no"}`}>
         <Calender />
       </div>
-    </div>
+    </>
   );
 }
 
