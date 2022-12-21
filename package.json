@@ -2,8 +2,8 @@
   "name": "my-react-datapicker",
   "version": "0.1.7",
   "private": false,
-  "main": "dist/Input.tsx",
-  "module": "dist/Input.tsx",
+  "main": "dist/Calendar.tsx",
+  "module": "dist/Calendar.tsx",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
