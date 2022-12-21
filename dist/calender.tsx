@@ -1,9 +1,10 @@
 import React from 'react'
+import Input from "./components/Input"
 
-const calender = () => {
+const Calender = () => {
   return (
-    <div>calender</div>
+    <Input />
   )
 }
 
-export default calender
+export default Calender

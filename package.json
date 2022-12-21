@@ -4,6 +4,7 @@
   "private": false,
   "main": "dist/Input.tsx",
   "module": "dist/Input.tsx",
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "README.md"

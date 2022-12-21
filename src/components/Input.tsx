@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Calender from './Calender';
 
 import './App.css';
 
@@ -16,7 +15,7 @@ function Input() {
     <>
       < input type="text" onFocus={onFocus} onBlur={onFocus} />
       <div className={`${focus ? "up" : "no"}`}>
-        <Calender />
+        <p>message displayed</p>
       </div>
     </>
   );
