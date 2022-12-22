@@ -4,7 +4,7 @@
   "private": false,
   "main": "dist/Calendar.tsx",
   "module": "dist/Calendar.tsx",
-  "types": "dist/Calendar.tsx",
+  "types": "dist/Calendar.d.ts",
   "files": [
     "dist",
     "README.md"
@@ -19,7 +19,7 @@
     "build-examples": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "rm -rf dist && mkdir dist && npx babel src --out-dir dist --copy-files"
+    "build": "npm run clean && tsc && cp package.json README.md ./dist"
   },
   "eslintConfig": {
     "extends": [
