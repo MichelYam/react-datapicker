@@ -11,12 +11,12 @@ export function Input() {
     setFocus(!focus)
   }
   return (
-    <>
+    <div>
       < input type="text" onFocus={onFocus} onBlur={onFocus} />
       <div className={`${focus ? "up" : "no"}`}>
         <p>message displayed</p>
       </div>
-    </>
+    </div>
   );
 }
 
