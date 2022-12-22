@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-import './App.css';
+// import './App.css';
 
 
 export function Input() {
-  const [date, setDate] = useState(new Date())
+  // const [date, setDate] = useState(new Date())
   const [focus, setFocus] = useState(false)
 
   const onFocus = () => {
