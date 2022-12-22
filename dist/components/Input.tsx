@@ -3,14 +3,13 @@ import React, { useState } from 'react';
 import './App.css';
 
 
-function Input() {
+export const Input: React.FC = () => {
   const [date, setDate] = useState(new Date())
   const [focus, setFocus] = useState(false)
 
   const onFocus = () => {
     setFocus(!focus)
   }
-  console.log(focus)
   return (
     <>
       < input type="text" onFocus={onFocus} onBlur={onFocus} />
@@ -21,4 +20,3 @@ function Input() {
   );
 }
 
-export default Input;
