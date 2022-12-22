@@ -1,6 +1,6 @@
 {
   "name": "my-react-datapicker",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "private": false,
   "main": "dist/Calendar.tsx",
   "module": "dist/Calendar.tsx",
