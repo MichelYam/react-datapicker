@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 
-export const Input: React.FC = () => {
+export function Input() {
   const [date, setDate] = useState(new Date())
   const [focus, setFocus] = useState(false)
 
