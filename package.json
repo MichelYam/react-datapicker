@@ -2,9 +2,9 @@
   "name": "my-react-datapicker",
   "version": "0.1.13",
   "private": false,
-  "main": "dist/Calendar.tsx",
-  "module": "dist/Calendar.tsx",
-  "types": "dist/Calendar.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "README.md"
