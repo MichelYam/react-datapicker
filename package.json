@@ -1,10 +1,10 @@
 {
   "name": "my-react-datapicker",
-  "version": "0.1.14",
+  "version": "0.1.13",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.ts",
-  "types": "dist/index.d.ts",
+  "main": "dist/Calendar.ts",
+  "module": "dist/Calendar.ts",
+  "types": "dist/Calendar.d.ts",
   "files": [
     "dist",
     "README.md"
